@@ -15,7 +15,7 @@ Mit diesem Prototyp können folgende Teilaufgaben durchgeführt werden:
 Um mit diesem Prototypen zu arbeiten, werden folgende Programme benötigt:
 
 * [Gson](https://github.com/google/gson) - Google Gson wird genutzt, um Zeitungsartikel einzulesen. Außerdem wird es benötigt, um die Vorhersagemodelle zu speichern und zu laden.
-* [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html) - Stanford CoreNLP ist für die Verarbeitung der Texter zuständig. Dafür wird speziell der [Part-of-speech-Tagger](https://de.wikipedia.org/wiki/Part-of-speech-Tagging) eingesetzt.
+* [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html) - Stanford CoreNLP ist für die Verarbeitung der Texter zuständig. Dafür wird speziell der [Part-of-speech-Tagger](https://nlp.stanford.edu/software/tagger.html) eingesetzt.
 * [Protocol Buffers](https://developers.google.com/protocol-buffers/) - Sollte bereits im Download von Stanford CoreNLP enthalten sein.
 
 Außerdem müssen die Dateipfade in den Klassen ```GuardianJsonCombiner.java, DictionaryCreator.java, VocabularyCombiner.java, NaiveBayesClassifier.java, ArticleConverter.java``` und ```Application.java``` angepasst werden.
